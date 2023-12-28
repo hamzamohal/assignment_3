@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  background-color: #f5903ea2;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  align-items: center;
+
+  & a {
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  & > nav {
+    display: flex;
+    gap: 1rem;
+
+    & > a {
+      font-size: 20px;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    background-color: #858694;
+  }
+}

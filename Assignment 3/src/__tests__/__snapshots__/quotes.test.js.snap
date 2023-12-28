@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Quotes component should render Quotes component 1`] = `
+<div
+  className="quotes"
+>
+  <blockquote>
+    If you stop at general math, then you will only make general money
+  </blockquote>
+  <p>
+    Snoop Dogg
+  </p>
+</div>
+`;
